@@ -1,5 +1,4 @@
 import numpy as np
-import random
 
 
 def calc_feature_oirs(features, gauss_pry):

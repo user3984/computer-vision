@@ -180,7 +180,7 @@
 
     Number of points in the consensus set: 10
 
-    ![Figure_1](img/Figure_1.png)
+    ![Figure_1](./img/Figure_1.png)
 
     Parameters: CONSENSUS_THR = 0.7, DIST_THR = 1.0, RANSAC_MAX_STEPS = 3000
 
@@ -188,5 +188,5 @@
 
     Number of points in the consensus set: 11
 
-    ![Figure_2](img/Figure_2.png)
+    ![Figure_2](./img/Figure_2.png)
 

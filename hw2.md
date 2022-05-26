@@ -1,7 +1,5 @@
 # Assignment 2
 
-1951748 罗力信
-
 1. In the augmented Euclidean plane, there is a line $x-3y+4=0$ , what is the homogeneous  coordinate of the infinity point of this line?
 
    **Solution** 
@@ -182,7 +180,7 @@
 
     Number of points in the consensus set: 10
 
-    ![Figure_1](C:\Users\22872\Desktop\CV\Figure_1.png)
+    ![Figure_1](/img/Figure_1.png)
 
     Parameters: CONSENSUS_THR = 0.7, DIST_THR = 1.0, RANSAC_MAX_STEPS = 3000
 
@@ -190,33 +188,5 @@
 
     Number of points in the consensus set: 11
 
-    ![Figure_2](C:\Users\22872\Desktop\CV\Figure_2.png)
+    ![Figure_2](/img/Figure_2.png)
 
-5. (Programming) Bird’s-eye-view generation.
-
-    Camera: ultra wide camera on iPhone 11
-    
-    Intrinsic matrix:
-    $$
-    K=\begin{bmatrix}
-    1619.77356 & 0 & 2010.04972\\
-    0 & 1620.31931 & 1500.46370\\
-    0 & 0 & 1
-    \end{bmatrix}
-    $$
-    Distortion coefficients:
-    $$
-    k_1=0.106775359,\quad k_2=-0.182404395,\quad p_1=-6.14841368\times 10^{-4}\\
-    p_2=-1.67079779\times 10^{-4},\quad k_3=8.96816159\times 10^{-2}
-    $$
-    Original image:
-    
-    ![img](C:\Users\22872\Desktop\CV\camcalib\img.jpg)
-    
-    Undistorted image:
-    
-    ![undistorted](C:\Users\22872\Desktop\CV\camcalib\undistorted.jpg)
-    
-    Generated bird's eye view image:
-    
-    ![birdseye](C:\Users\22872\Desktop\CV\camcalib\birdseye.jpg)
